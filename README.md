@@ -4,8 +4,9 @@
 
 <a href="https://www.youtube.com/watch?v=CXayb1ZQWsI"><img src="media/thumbnail3.png" height="512"></a>
 
-### For Architecture and design:
-Please refer to my blog post: [Transform Your App's User Experience With ChatGPT](https://www.stipplelabs.com/)
+
+### Architecture and Design
+Please see my blog post: [Transform Your App's User Experience With ChatGPT](https://stipplelabs.medium.com/chatgpt-image-overlay-app-transform-your-apps-user-experience-with-chatgpt-f74f392e0b8d?source=friends_link&sk=34e53edeea2ee42900f8c21a898a3611)
 
 ### Follow me for more interesting articles on AI:
 - [Stipple Labs - Website](https://www.stipplelabs.com/)
