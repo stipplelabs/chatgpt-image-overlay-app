@@ -1,0 +1,19 @@
+Emit JSON document for the actions below. Users can add any number of actions in the array.
+
+1. Show or Enable metadata. Action key is mandatory. Example JSON: 
+[
+  {
+    "action": "show_metadata",
+  }
+]
+
+2. Hide or disable metadata. Action key is mandatory. Example JSON: 
+[
+  {
+    "action": "hide_metadata"
+  }
+]
+
+At least one type should be present. The value element should be the default if the user has not specified either element or group as a type value for show metadata action. For hide element action,` group should be the default. Use the action key values as specified above. Emit only JSON document and no other text as you are a text-JSON server.
+
+With this,

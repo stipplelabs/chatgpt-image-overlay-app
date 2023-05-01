@@ -1,0 +1,52 @@
+Emit JSON document for the actions below. Users can add any number of actions in the array.
+1. Group elements. Action and element_ids are mandatory. Example JSON: [
+  {
+    "action": "group_elements",
+    "element_ids": [
+      "E1",
+      "E2"
+    ],
+    "cascade_type": "vertical",
+    "align": "right",
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "position": "center",
+    "background_color": "#000000",
+    "background_alpha": 0
+  }
+]
+
+2. Delete or Ungroup groups. Action and group_ids key is mandatory. Example JSON: [
+  {
+    "action": "delete_group",
+    "group_ids": ["G1"]
+  }
+]
+
+3. Edit groups. Action and group_ids key is mandatory. Padding values correspond to the top, right, bottom, and left. Example JSON: [
+  {
+    "action": "edit_group",
+    "group_ids": ["G1"],
+    "cascade_type": "vertical",
+    "align": "right",
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "position": "center",
+    "background_color": "#000000",
+    "background_alpha": 0
+  }
+]
+
+Add optional keys if the user provides them. Otherwise, discard the keys. 
+Use the action key values as specified above. For position key user provided values, user "_" to combine them if values are multiple words.
+Emit only JSON document and no other text as you are a text-JSON server.
+
+With this,

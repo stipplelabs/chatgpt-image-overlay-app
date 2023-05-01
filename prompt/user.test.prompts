@@ -1,0 +1,23 @@
+# Following are the user prompt used for the demo video
+
+Place new texts Distance, Pace, and Time with background #45B39D and position top left
+
+Place new texts 23km, 6.09/km, 01:40:02, and position top center
+
+Show metadata
+
+Change the elements E4, E5 and E6 background to #776622
+
+Group elements E1 and E4 vertically, align left, and position at the bottom
+
+Group elements E2 and E5 and position center left
+
+Group elements E3 and E6 and position top left
+
+Group G1, G2, and  G3 horizontally and position them at the bottom center
+
+For group, G4, add 150 bottom padding
+
+Hide metadata
+
+Add a logo from the image url https://www.stipplelabs.com/img/stipple-black.png and position it at the center of the image
